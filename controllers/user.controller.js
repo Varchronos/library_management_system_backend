@@ -19,7 +19,7 @@ exports.registerUser = (req, res, next) => {
     const email = req.body.email;
     const username = req.body.username;
     const password = req.body.password;
-    const userType = 'normal';
+    const userType = req.body.userType;
     const user = new User({
         username: username,
         email: email,

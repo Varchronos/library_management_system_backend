@@ -19,6 +19,7 @@ const usersSchema = new schema(
         userType: {
             type: String,
             required: true,
+            default: 'normal'
         },
         borrowedBooks:[{type:schema.Types.ObjectId, ref:'Book'}],
     },

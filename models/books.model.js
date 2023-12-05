@@ -14,6 +14,10 @@ const booksSchema = new schema(
             type:Boolean,
             required: true,
         },
+        imageUrl:{
+            type: String,
+            required: false,
+        },
         borrowerInfo:{
             type:String,
             required: false,

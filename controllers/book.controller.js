@@ -6,16 +6,18 @@ exports.addBook = (req, res, next) => {
     const bookName = req.body.bookName;
     const bookDesc = req.body.bookDesc;
     const availability = req.body.availability;
+    const imageUrl = req.body.imageUrl;
     const book = new Book({
         bookName: bookName,
         bookDesc: bookDesc,
         availability: availability,
+        imageUrl: imageUrl,
         borrowerInfo: ''
     })
     book.save()
         .then(result => {
             console.log(result)
-            res.json({ message: 'book added' })
+            res.json({ message: 'book added', book })
         })
         .catch(err => {
             console.log(err);
