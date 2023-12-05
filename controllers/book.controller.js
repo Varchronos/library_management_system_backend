@@ -124,9 +124,16 @@ exports.showBorrowed = async (req, res) => {
         try {
             const foundUser = await User.findById(userId)
             if (foundUser) {
-                res.status(201).json({ BookList: foundUser.borrowedBooks })
+                let bookList = [];
+                for(let i = 0 ; i < foundUser.borrowedBooks.length; i++)
+                {
+                    const bookId = foundUser.borrowedBooks[i]
+                    const book = await Book.findById(bookId)
+                    if(!book)return res.status(404).json({error:'book not found'})
+                    bookList.push(book);
+                }
+            res.status(200).json({borrowedBooks: bookList})
             }
-
         }
         catch (error) {
             return res.json({ error: 'Internal server error' })
