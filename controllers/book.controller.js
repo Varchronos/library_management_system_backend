@@ -34,7 +34,7 @@ exports.getAllBooks = (req, res) => {
 }
 
 exports.getBookById = (req, res) => {
-    const bookId = req.body.id;
+    const bookId = req.params.id;
 
     Book.findOne({ _id: bookId })
         .then(book => {

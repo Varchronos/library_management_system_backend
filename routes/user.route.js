@@ -21,7 +21,7 @@ router.post('/api/register', registrationRules(), validate, controller.registerU
 router.post('/api/login', controller.loginUser)
 router.post('/api/books/add',authenticationToken, isAdmin,bookController.addBook)
 router.get('/api/books/getAll', authenticationToken, bookController.getAllBooks)
-router.get('/api/books/getById', authenticationToken, bookController.getBookById)
+router.get('/api/books/book/:id', authenticationToken, bookController.getBookById)
 router.delete('/api/books/deleteById', authenticationToken, isAdmin,bookController.deleteBookById ) //query parameter used
 router.put('/api/books/borrowBook', authenticationToken, bookController.borrowBook)
 router.get('/api/books/showBorrowed', authenticationToken, bookController.showBorrowed)
