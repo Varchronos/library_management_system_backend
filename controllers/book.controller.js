@@ -99,6 +99,7 @@ exports.borrowBook = async (req, res) => {
 
             // setting availability of book false and adding the entry to to user's borrowed books and then saving both changes.
             foundBook.availability = false;
+            foundBook.borrowerInfo = userId;
             const bookstatus = await foundBook.save();
             if (!bookstatus) return res.json({ error: 'server error! couldnt borrow book' })
 
