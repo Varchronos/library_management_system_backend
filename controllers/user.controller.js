@@ -12,7 +12,7 @@ exports.getUser = async(req, res, next) => {
     const userId = decoded.userId;
     const currentUser = await User.findById(userId);
     if(!currentUser)return res.status(404).json({message:'timed out'});
-    res.status(200).json({message:'Hi Dhruv', currentUser});
+    res.status(200).json({message:`Hi ${currentUser.username}`, currentUser});
 }
 
 exports.registerUser = (req, res, next) => {
