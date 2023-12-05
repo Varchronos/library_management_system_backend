@@ -5,12 +5,12 @@ const jwt = require('jsonwebtoken')
 
 const jwt_secret_key = 'gvzEof7ZmfFbkn3lDLL8WrHITXwEejxvUUH8wYrIlhY='
 
-exports.getUser = (req, res, next) => {
-    res.status(200).json({
-        name: 'Dhruv',
-        password: 'hello world'
-    })
-}
+// exports.getUser = (req, res, next) => {
+//     res.status(200).json({
+//         name: 'Dhruv',
+//         password: 'hello world'
+//     })
+// }
 
 exports.registerUser = (req, res, next) => {
     const email = req.body.email;

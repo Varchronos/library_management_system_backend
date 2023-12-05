@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const schema = mongoose.Schema;
 
+
 const usersSchema = new schema(
     {
         username: {
@@ -19,6 +20,7 @@ const usersSchema = new schema(
             type: String,
             required: true,
         },
+        borrowedBooks:[{type:schema.Types.ObjectId, ref:'Book'}],
     },
     {
         timestamps: true
