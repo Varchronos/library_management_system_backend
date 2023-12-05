@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken')
 const jwt_secret_key = 'gvzEof7ZmfFbkn3lDLL8WrHITXwEejxvUUH8wYrIlhY='
 const User = require('../models/users.models')
 exports.addBook = (req, res, next) => {
-    const userId = req.body.userId;
     const bookName = req.body.bookName;
     const bookDesc = req.body.bookDesc;
     const availability = req.body.availability;
