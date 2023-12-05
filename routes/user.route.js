@@ -16,7 +16,7 @@ const isAdmin = require('../middleware/adminAuth.middleware')
 // })
 
 
-// router.get('/api/user', controller.getUser)
+router.get('/api/user', controller.getUser)
 router.post('/api/register', registrationRules(), validate, controller.registerUser)
 router.post('/api/login', controller.loginUser)
 router.post('/api/books/add',authenticationToken, isAdmin,bookController.addBook)

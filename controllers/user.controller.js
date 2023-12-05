@@ -5,12 +5,15 @@ const jwt = require('jsonwebtoken')
 
 const jwt_secret_key = 'gvzEof7ZmfFbkn3lDLL8WrHITXwEejxvUUH8wYrIlhY='
 
-// exports.getUser = (req, res, next) => {
-//     res.status(200).json({
-//         name: 'Dhruv',
-//         password: 'hello world'
-//     })
-// }
+exports.getUser = async(req, res, next) => {
+    const token = req.headers.authorization.split(' ')[1];
+    if(!token)return res.status(404).json({message:'timed out'});
+    const decoded = jwt.verify(token, jwt_secret_key)
+    const userId = decoded.userId;
+    const currentUser = await User.findById(userId);
+    if(!currentUser)return res.status(404).json({message:'timed out'});
+    res.status(200).json({message:'Hi Dhruv', currentUser});
+}
 
 exports.registerUser = (req, res, next) => {
     const email = req.body.email;
