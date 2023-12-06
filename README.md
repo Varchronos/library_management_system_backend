@@ -1,7 +1,5 @@
 # library_management_system_backend
 backend for library management system project
-## This is the backend of Library management system
-
 ## Features
 
 1. **User Panel:**
