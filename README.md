@@ -4,21 +4,21 @@ Backend for the Library Management System project
 ## Features
 
 1. **User Panel:**
-   - Create an account ![icon](https://fontawesome.com/icons/user?style=solid)
-   - Borrow books ![icon](https://fontawesome.com/icons/book?style=solid)
-   - Return books ![icon](https://fontawesome.com/icons/undo?style=solid)
+   - Create an account
+   - Borrow books 
+   - Return books 
 
 2. **Admin Panel:**
-   - Access features similar to the user panel ![icon](https://fontawesome.com/icons/user-cog?style=solid)
-   - Add books ![icon](https://fontawesome.com/icons/plus?style=solid)
-   - Remove books ![icon](https://fontawesome.com/icons/times?style=solid)
+   - Access features similar to the user panel 
+   - Add books 
+   - Remove books 
 
 3. **Book Borrowing Restrictions:**
-   - Users cannot borrow books already borrowed by themselves or others ![icon](https://fontawesome.com/icons/ban?style=solid)
+   - Users cannot borrow books already borrowed by themselves or others 
 
 4. **Authentication:**
-   - Authentication required for every activity ![icon](https://fontawesome.com/icons/lock?style=solid)
-   - Users cannot perform any action without authentication ![icon](https://fontawesome.com/icons/times-circle?style=solid)
+   - Authentication required for every activity 
+   - Users cannot perform any action without authentication 
 
 ## Technologies Used
 
