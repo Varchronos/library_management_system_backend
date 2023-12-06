@@ -22,16 +22,22 @@ Backend for the Library Management System project
 ## Technologies Used
 
 **Backend:**
-  - [![NodeJS](https://img.shields.io/badge/NodeJS-14.x-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)   [![Express](https://img.shields.io/badge/Express-4.x-blue?style=flat-square&logo=express)](https://expressjs.com/) [![JWT](https://img.shields.io/badge/JWT-latest-orange?style=flat-square&logo=json-web-tokens)](https://jwt.io/)    [![dotenv](https://img.shields.io/badge/dotenv-latest-yellow?style=flat-square&logo=npm)](https://www.npmjs.com/package/dotenv)    [![MongoDB](https://img.shields.io/badge/MongoDB-latest-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)    [![Mongoose](https://img.shields.io/badge/Mongoose-latest-success?style=flat-square&logo=mongoose)](https://mongoosejs.com/)    [![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+[![NodeJS](https://img.shields.io/badge/NodeJS-14.x-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)   
+[![Express](https://img.shields.io/badge/Express-4.x-blue?style=flat-square&logo=express)](https://expressjs.com/)
+[![JWT](https://img.shields.io/badge/JWT-latest-orange?style=flat-square&logo=json-web-tokens)](https://jwt.io/)    
+[![dotenv](https://img.shields.io/badge/dotenv-latest-yellow?style=flat-square&logo=npm)](https://www.npmjs.com/package/dotenv)   
+[![MongoDB](https://img.shields.io/badge/MongoDB-latest-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)   
+[![Mongoose](https://img.shields.io/badge/Mongoose-latest-success?style=flat-square&logo=mongoose)](https://mongoosejs.com/)   
+[![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 **Frontend:**
-  - [![ReactJS](https://img.shields.io/badge/ReactJS-latest-blue?style=flat-square&logo=react)](https://reactjs.org/)
-  - [![NextJS](https://img.shields.io/badge/NextJS-latest-success?style=flat-square&logo=next.js)](https://nextjs.org/)
-  - [![Axios](https://img.shields.io/badge/Axios-latest-informational?style=flat-square&logo=axios)](https://axios-http.com/)
-  - [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-latest-blueviolet?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+   [![ReactJS](https://img.shields.io/badge/ReactJS-latest-blue?style=flat-square&logo=react)](https://reactjs.org/)
+   [![NextJS](https://img.shields.io/badge/NextJS-latest-success?style=flat-square&logo=next.js)](https://nextjs.org/)
+   [![Axios](https://img.shields.io/badge/Axios-latest-informational?style=flat-square&logo=axios)](https://axios-http.com/)
+   [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-latest-blueviolet?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
 **Testing Tools:**
-  - [![Postman](https://img.shields.io/badge/Postman-latest-orange?style=flat-square&logo=postman)](https://www.postman.com/)
+[![Postman](https://img.shields.io/badge/Postman-latest-orange?style=flat-square&logo=postman)](https://www.postman.com/)
 
 ## Deployment
 
