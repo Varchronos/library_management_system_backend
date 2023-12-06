@@ -22,6 +22,7 @@ Backend for the Library Management System project
 ## Technologies Used
 
 **Backend:**
+
 [![NodeJS](https://img.shields.io/badge/NodeJS-14.x-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)   
 [![Express](https://img.shields.io/badge/Express-4.x-blue?style=flat-square&logo=express)](https://expressjs.com/)
 [![JWT](https://img.shields.io/badge/JWT-latest-orange?style=flat-square&logo=json-web-tokens)](https://jwt.io/)    
