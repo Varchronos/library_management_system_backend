@@ -58,6 +58,86 @@ Not deployed yet, work in progress
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Postman Documentation](https://learning.postman.com/docs/)
 
+
+# API Endpoint Documentation
+
+## Overview
+
+This documentation provides a quick reference guide for the API endpoints in the backend project. The API is built using Node.js, Express, and MongoDB.
+
+## Endpoints
+
+### 1. User Routes
+
+- **Register User**
+  - Endpoint: `POST /api/register`
+  - Description: Registers a new user.
+  - Request Body:
+    ```json
+    {
+      "username": "string",
+      "email": "string",
+      "password": "string",
+      "userType": "string"
+    }
+    ```
+- **Login User**
+  - Endpoint: `POST /api/login`
+  - Description: Authenticates a user and returns a token.
+  - Request Body:
+    ```json
+    {
+      "email": "string",
+      "password": "string"
+    }
+    ```
+
+### 2. Book Routes
+
+- **Add Book**
+  - Endpoint: `POST /api/books/add`
+  - Description: Adds a new book to the system.
+  - Request Body:
+    ```json
+    {
+      "bookName": "string",
+      "bookDesc": "string",
+      "availability": "boolean",
+      "imageUrl": "string"
+    }
+    ```
+- **Get All Books**
+  - Endpoint: `GET /api/books/getAll`
+  - Description: Retrieves a list of all books in the system.
+
+- **Get Book by ID**
+  - Endpoint: `GET /api/books/book/:id`
+  - Description: Retrieves details of a specific book by ID.
+
+- **Delete Book by ID**
+  - Endpoint: `DELETE /api/books/deleteById?id=<bookId>`
+  - Description: Deletes a book from the system by ID.
+
+- **Borrow Book**
+  - Endpoint: `PUT /api/books/borrowBook?id=<bookId>`
+  - Description: Borrows a book for the authenticated user.
+
+- **Show Borrowed Books**
+  - Endpoint: `GET /api/books/showBorrowed`
+  - Description: Retrieves a list of books borrowed by the authenticated user.
+
+- **Return Book**
+  - Endpoint: `PUT /api/books/returnBook?id=<bookId>`
+  - Description: Returns a borrowed book.
+
+## Notes
+
+- All endpoints require proper authentication using a valid token.
+- Admin privileges are required for certain endpoints.
+- Use appropriate HTTP methods for each endpoint (POST, GET, DELETE, PUT).
+
+
+
 ## Authors
 
 - **Varchronos** - *FrontEnd Developer* - [GitHub Profile](https://github.com/Varchronos)
