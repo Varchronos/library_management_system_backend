@@ -1,10 +1,6 @@
 # library_management_system_backend
 backend for library management system project
-# Library Management System
-
-One Paragraph of the project description
-
-Initially appeared on [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+## This is the backend of Library management system
 
 ## Features
 
@@ -47,7 +43,7 @@ Initially appeared on [gist](https://gist.github.com/PurpleBooth/109311bb0361f32
 
 ## Deployment
 
-Add information about the deployment process here.
+Not deployed yet, work in progress
 
 ## Documentation Links
 
@@ -63,14 +59,8 @@ Add information about the deployment process here.
 
 ## Authors
 
-- **Your Name** - *Project Developer* - [GitHub Profile](#)
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md) Creative Commons License - see the [LICENSE.md](LICENSE.md) file for details
+- **Varchronos** - *FrontEnd Developer* - [GitHub Profile](https://github.com/Varchronos)
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc
+- will be updating
