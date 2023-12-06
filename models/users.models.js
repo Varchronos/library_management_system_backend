@@ -21,7 +21,10 @@ const usersSchema = new schema(
             required: true,
             default: 'normal'
         },
-        borrowedBooks:[{type:schema.Types.ObjectId, ref:'Book'}],
+        borrowedBooks: [{
+            type: schema.Types.ObjectId,
+            ref: 'Book',
+        }],
     },
     {
         timestamps: true
