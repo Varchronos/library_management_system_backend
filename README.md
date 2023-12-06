@@ -29,15 +29,17 @@ Backend for the Library Management System project
 [![dotenv](https://img.shields.io/badge/dotenv-latest-yellow?style=flat-square&logo=npm)](https://www.npmjs.com/package/dotenv)   
 [![MongoDB](https://img.shields.io/badge/MongoDB-latest-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)   
 [![Mongoose](https://img.shields.io/badge/Mongoose-latest-success?style=flat-square&logo=mongoose)](https://mongoosejs.com/)   
-[![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+[![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://www.npmjs.com/package/cors)
 
 **Frontend:**
-   [![ReactJS](https://img.shields.io/badge/ReactJS-latest-blue?style=flat-square&logo=react)](https://reactjs.org/)
+
+   [![ReactJS](https://img.shields.io/badge/ReactJS-latest-blue?style=flat-square&logo=react)](https://react.dev/)
    [![NextJS](https://img.shields.io/badge/NextJS-latest-success?style=flat-square&logo=next.js)](https://nextjs.org/)
    [![Axios](https://img.shields.io/badge/Axios-latest-informational?style=flat-square&logo=axios)](https://axios-http.com/)
    [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-latest-blueviolet?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
 **Testing Tools:**
+
 [![Postman](https://img.shields.io/badge/Postman-latest-orange?style=flat-square&logo=postman)](https://www.postman.com/)
 
 ## Deployment
