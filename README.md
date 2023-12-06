@@ -2,34 +2,27 @@
 Backend for the Library Management System project
 
 ## Features
-
 1. **User Panel:**
-   - Create an account
-   - Borrow books 
-   - Return books 
+   - Create an account ![icon](https://img.shields.io/badge/account-Create-brightgreen?style=flat-square)
+   - Borrow books ![icon](https://img.shields.io/badge/books-Borrow-blue?style=flat-square)
+   - Return books ![icon](https://img.shields.io/badge/books-Return-brightgreen?style=flat-square)
 
 2. **Admin Panel:**
-   - Access features similar to the user panel 
-   - Add books 
-   - Remove books 
+   - Access features similar to the user panel ![icon](https://img.shields.io/badge/features-Access-blueviolet?style=flat-square)
+   - Add books ![icon](https://img.shields.io/badge/books-Add-orange?style=flat-square)
+   - Remove books ![icon](https://img.shields.io/badge/books-Remove-red?style=flat-square)
 
 3. **Book Borrowing Restrictions:**
-   - Users cannot borrow books already borrowed by themselves or others 
+   - Users cannot borrow books already borrowed by themselves or others ![icon](https://img.shields.io/badge/restrictions-No%20Double%20Borrowing-lightgrey?style=flat-square)
 
 4. **Authentication:**
-   - Authentication required for every activity 
-   - Users cannot perform any action without authentication 
+   - Authentication required for every activity ![icon](https://img.shields.io/badge/authentication-Required-ff69b4?style=flat-square)
+   - Users cannot perform any action without authentication ![icon](https://img.shields.io/badge/authentication-Required-ff69b4?style=flat-square)
 
 ## Technologies Used
 
 **Backend:**
-  - [![NodeJS](https://img.shields.io/badge/NodeJS-14.x-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)
-  - [![Express](https://img.shields.io/badge/Express-4.x-blue?style=flat-square&logo=express)](https://expressjs.com/)
-  - [![JWT](https://img.shields.io/badge/JWT-latest-orange?style=flat-square&logo=json-web-tokens)](https://jwt.io/)
-  - [![dotenv](https://img.shields.io/badge/dotenv-latest-yellow?style=flat-square&logo=npm)](https://www.npmjs.com/package/dotenv)
-  - [![MongoDB](https://img.shields.io/badge/MongoDB-latest-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
-  - [![Mongoose](https://img.shields.io/badge/Mongoose-latest-success?style=flat-square&logo=mongoose)](https://mongoosejs.com/)
-  - [![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+  - [![NodeJS](https://img.shields.io/badge/NodeJS-14.x-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org/)  [![Express](https://img.shields.io/badge/Express-4.x-blue?style=flat-square&logo=express)](https://expressjs.com/) [![JWT](https://img.shields.io/badge/JWT-latest-orange?style=flat-square&logo=json-web-tokens)](https://jwt.io/) [![dotenv](https://img.shields.io/badge/dotenv-latest-yellow?style=flat-square&logo=npm)](https://www.npmjs.com/package/dotenv) [![MongoDB](https://img.shields.io/badge/MongoDB-latest-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/) [![Mongoose](https://img.shields.io/badge/Mongoose-latest-success?style=flat-square&logo=mongoose)](https://mongoosejs.com/) [![Cors](https://img.shields.io/badge/Cors-latest-blueviolet?style=flat-square&logo=mozilla-firefox-browser)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 **Frontend:**
   - [![ReactJS](https://img.shields.io/badge/ReactJS-latest-blue?style=flat-square&logo=react)](https://reactjs.org/)
