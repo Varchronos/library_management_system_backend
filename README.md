@@ -3,21 +3,21 @@ backend for library management system project
 ## Features
 
 1. **User Panel:**
-   - Create an account
-   - Borrow books
-   - Return books
+   - Create an account 📝
+   - Borrow books 📚
+   - Return books 🔄
 
 2. **Admin Panel:**
-   - Access features similar to the user panel
-   - Add books
-   - Remove books
+   - Access features similar to the user panel 🧑‍💼
+   - Add books ➕
+   - Remove books ❌
 
 3. **Book Borrowing Restrictions:**
-   - Users cannot borrow books already borrowed by themselves or others
+   - Users cannot borrow books already borrowed by themselves or others 🚫
 
 4. **Authentication:**
-   - Authentication required for every activity
-   - Users cannot perform any action without authentication
+   - Authentication required for every activity 🔐
+   - Users cannot perform any action without authentication ❌
 
 ## Technologies Used
 
